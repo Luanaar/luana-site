@@ -1,0 +1,121 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore a coleção esportiva e os lançamentos Nike.">
+  <title>Nike — Movimento sem limites</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="topbar">
+    <span>SNKRS</span>
+    <div class="top-links">
+      <a href="#ajuda">Ajuda</a>
+      <a href="#conta">Junte-se a nós</a>
+      <a href="#conta">Entrar</a>
+    </div>
+  </div>
+
+  <header class="header">
+    <a class="logo" href="#" aria-label="Nike - início">
+      <svg viewBox="0 0 70 30" role="img" aria-label="Nike">
+        <path fill="currentColor"
+          d="M2 21.5 67 1 30 27C17 36 2 29 2 21.5Z"/>
+      </svg>
+    </a>
+
+    <nav class="desktop-nav" aria-label="Navegação principal">
+      <a href="#ofertas">Ofertas</a>
+      <a href="#lancamentos">Lançamentos</a>
+      <a href="#masculino">Masculino</a>
+      <a href="#feminino">Feminino</a>
+      <a href="#infantil">Infantil</a>
+      <a href="#snkrs">SNKRS</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="icon-button search-toggle"
+        aria-label="Abrir pesquisa" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="10.8" cy="10.8" r="6.3"/>
+          <path d="m15.5 15.5 4.2 4.2"/>
+        </svg>
+      </button>
+
+      <a class="icon-button" href="#favoritos"
+        aria-label="Favoritos">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M20.5 8.7c0 4.3-8.5 10-8.5 10s-8.5-5.7-8.5-10a4.4 4.4 0 0 1 8.5-1.5 4.4 4.4 0 0 1 8.5 1.5Z"/>
+        </svg>
+      </a>
+
+      <a class="icon-button" href="#sacola" aria-label="Sacola">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M5 8h14l1 12H4L5 8Z"/>
+          <path d="M9 8V6a3 3 0 0 1 6 0v2"/>
+        </svg>
+      </a>
+
+      <button class="icon-button menu-toggle"
+        aria-label="Abrir menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 6h18M3 12h18M3 18h18"/>
+        </svg>
+      </button>
+    </div>
+
+    <form class="search-panel" role="search">
+      <input type="search" placeholder="Buscar produtos..."
+        aria-label="Buscar produtos">
+      <button type="submit">Buscar</button>
+    </form>
+  </header>
+
+  <div class="announcement">
+    <button class="slide-arrow" aria-label="Aviso anterior">‹</button>
+    <p>
+      <strong>↗ TÊNIS DE CORRIDA</strong>
+      <span>Encontre o seu tênis ideal.</span>
+      <a href="#lancamentos">Saiba Mais</a>
+    </p>
+    <button class="slide-arrow" aria-label="Próximo aviso">›</button>
+  </div>
+
+  <main>
+    <section class="hero" aria-label="Campanha esportiva">
+      <img class="hero-image" src="hero.jpg"
+        alt="Atletas em movimento durante um treino esportivo">
+
+      <div class="hero-content">
+        <span class="eyebrow">SUPERE SEUS LIMITES</span>
+        <h1>O movimento<br>começa aqui.</h1>
+        <p>Descubra o seu próximo nível.</p>
+        <a class="cta" href="#lancamentos">Explorar coleção</a>
+      </div>
+
+      <div class="hero-caption">
+        <span>NIKE TRAINING</span>
+        <span>FEITO PARA IR ALÉM.</span>
+      </div>
+    </section>
+
+    <section class="below-fold" id="lancamentos">
+      <p class="eyebrow">EXPLORE A NIKE</p>
+      <h2>Seu próximo movimento.</h2>
+      <p>Encontre inspiração para superar os seus limites.</p>
+      <div class="category-links">
+        <a href="#masculino">Masculino ↗</a>
+        <a href="#feminino">Feminino ↗</a>
+        <a href="#infantil">Infantil ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer id="ajuda">
+    <p>NIKE — Projeto demonstrativo desenvolvido com HTML, CSS e JavaScript.</p>
+  </footer>
+</body>
+</html>
